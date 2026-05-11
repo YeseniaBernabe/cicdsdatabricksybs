@@ -133,7 +133,7 @@ jobs:
                 "notebook_path": "/smartdata/scripts/main/1.Preparacion_Ambiente",
                 "source": "WORKSPACE",
                   "base_parameters": {
-                  "storageName": "adlsmartdata1504"
+                  "storageName": "adlsprojectybs"
                 }
               },
               "existing_cluster_id": "$CLUSTER_ID",
@@ -150,7 +150,7 @@ jobs:
                   "container": "raw",
                   "catalogo": "catalog_au",
                   "esquema": "bronze",
-                  "storageName": "adlsmartdata1504"
+                  "storageName": "adlsprojectybs"
                 }
               },
               "existing_cluster_id": "$CLUSTER_ID",
@@ -172,7 +172,7 @@ jobs:
                   "container": "raw",
                   "catalogo": "catalog_au",
                   "esquema": "bronze",
-                  "storageName": "adlsmartdata1504"
+                  "storageName": "adlsprojectybs"
                 }
               },
               "existing_cluster_id": "$CLUSTER_ID",
@@ -194,7 +194,7 @@ jobs:
                   "container": "raw",
                   "catalogo": "catalog_au",
                   "esquema": "bronze",
-                  "storageName": "adlsmartdata1504"
+                  "storageName": "adlsprojectybs"
                 }
               },
               "existing_cluster_id": "$CLUSTER_ID",
