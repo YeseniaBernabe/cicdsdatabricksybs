@@ -106,7 +106,7 @@ jobs:
           echo "CLUSTER_ID=$cluster_id" >> $GITHUB_ENV
         else
           echo "❌ No se encontró el cluster: $CLUSTER_NAME"
-          echo "Clusters disponibles:"f
+          echo "Clusters disponibles:"
           echo "$clusters_response" | jq -r '.clusters[]? | .cluster_name'
           exit 1
         fi
@@ -168,7 +168,7 @@ jobs:
               "notebook_task": {
                 "notebook_path": "/smartdata/scripts/main/2.Ingest_racing_data",
                 "source": "WORKSPACE",
-                "base_parameters": {
+                "base_parameters": { 
                   "container": "raw",
                   "catalogo": "catalog_au",
                   "esquema": "bronze",
